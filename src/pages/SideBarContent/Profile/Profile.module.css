@@ -1,0 +1,109 @@
+.ProfileMain{
+    display: flex;
+    flex-direction: row;    
+    height: auto;
+    width: 60%;
+    background-color: #5caff7;
+    margin-left: 29%;
+    margin-top: 10%;
+    margin-bottom: 5rem;
+    padding: 1.5rem .08rem;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.ProfileImg{
+    height: 40vh;
+    clip-path: circle();
+}
+
+.Bio{
+    background-color: #5caff7;
+    padding: 1rem 1rem 1rem 0.1rem;
+    color: whitesmoke;
+    font-size: 1.2em;
+}
+
+.nameh1{
+    margin-top: 1rem;
+    background-color: #5caff7;
+}
+
+.usernameh2{
+    
+    color: whitesmoke;
+    font-size: 2rem;
+    background-color: #5caff7;
+}
+
+.userBio{
+    background-color: #5caff7;
+    margin-top: 1rem;
+}
+ .MyBlogs{
+    background-color: #5caff7;
+    height: auto;
+    width: 71%;
+    margin-left: 24%;
+    margin-bottom: 5%;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    padding-top: 1.5rem;
+    
+}
+
+.MyBlogMainHeading{
+    position: relative;
+    background-color: #5caff7;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+.MyBlogflexBox{
+    background-color: #5caff7;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+    margin-left: 8%;
+    text-align: center;
+    
+}
+
+.Myblog {
+    background-color: #b5d4ee;
+    color: whitesmoke;
+    margin-right: 8%;
+    margin-bottom: 5%;
+    border-radius: 1rem;
+    max-width: 25%;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    
+    
+}
+
+.MyBlogimage{
+    overflow: hidden;
+
+}
+
+
+.Myblog a,
+.Myblog span,
+.Myblog p,
+.Myblog h5,
+.Myblog time {
+    margin: 10px 0; 
+    background-color: #b5d4ee;  
+    text-decoration: none; 
+    color: black;
+    font-weight: 600;
+  }
+
+  .Myblog a{
+    cursor: pointer;
+  }

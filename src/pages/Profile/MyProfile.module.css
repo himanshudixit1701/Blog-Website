@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.sideBar{
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    background-color:  #5caff7;
+    box-shadow: 2px 0px 5px 5px rgba(0, 0, 0, 0.3);
+    padding: 1.2rem;
+    top: 11%;
+    color: whitesmoke;
+    position: relative;
+}
+h4{
+    background-color: #5caff7;
+    cursor: pointer;
+    font-weight: 600;
+}
+.AddBlog, .UpdateBlog{
+    margin-top: 1rem;    
+}
+.logout{
+    background-color: whitesmoke;
+    color: #5caff7;
+    margin-top: 62vh;
+    font-weight: 600;
+    
+}
+
+
+
+

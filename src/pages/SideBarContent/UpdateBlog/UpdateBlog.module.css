@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.UpdateBlogContainer{
+    background-color: #5caff7;
+    height: auto;
+    width: 49vw;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 35%;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3); 
+    color: whitesmoke;
+    
+}
+::placeholder {
+    color: whitesmoke;
+       
+}
+
+.UpdatetitleInput, .UpdateimgInput, .UpdatecontentInput, .UpdateAuthorInput, .UpdateDateInput, label{
+    background-color: #5caff7;
+    text-align: left;
+    font-weight: 500;
+    margin-top: 5px;
+    
+    
+} 
+
+.UpdatetitleInput input, .UpdateimgInput input{
+    background-color: #5caff7;
+    min-width: 20vw;
+    padding: 10px 15px;
+    border-radius: .5rem;
+    border: 1px solid whitesmoke;
+    outline: none;
+    color: whitesmoke;
+}
+
+.UpdatecontentInput input{
+    background-color: #5caff7;
+    min-width: 45vw;
+    min-height: 30vh;
+    padding: 10px;
+    border-radius: .5rem;
+    border: 1px solid whitesmoke;
+    outline: none;
+    color: whitesmoke;
+}
+
+.UpdateAuthorDate{
+    display: flex;
+    justify-content: space-between;
+    background-color: #5caff7;
+}
+
+.UpdateAuthorDate input{
+    background-color: #5caff7;
+    min-width: 4vw;
+    padding: 10px 15px;
+    border-radius: .5rem;
+    border: 1px solid whitesmoke;
+    outline: none;
+    color: whitesmoke;
+}
+
+.UpdatesubmitButton{
+    background-color: whitesmoke;
+    color: #5caff7;
+    text-align: center;
+    margin-left: 40%;
+}

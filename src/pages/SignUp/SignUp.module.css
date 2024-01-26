@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.SignUpContainer {
+    background-color: #5caff7;
+    height: auto;
+    width: 80vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10% auto;
+    border-radius: 1.5rem;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+form {
+    background-color: #5caff7;
+}
+
+.SignUpContainer h2{
+    display: inline-block;
+    background-color: #5caff7;
+    font-size: 1.7rem;
+    color: whitesmoke;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    background-color: #5caff7;
+    padding: 1erm;
+}
+
+.name{
+    width: 20vw;
+    background-color: #5caff7;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+.name label{
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    background-color: #5caff7;
+    color: whitesmoke;
+}
+
+.name input{
+    padding: 10px;
+    border-radius: .5rem;
+    border: 2px solid whitesmoke;
+    outline: none;
+    color: whitesmoke;  
+}
+
+.email{
+    background-color: #5caff7;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+.email label{
+    margin-left: 0.5rem;
+    background-color: #5caff7;
+    color: whitesmoke;
+}
+
+.email input{
+    padding: 10px;
+    border-radius: .5rem;
+    border: 2px solid whitesmoke;
+    outline: none;
+    color: whitesmoke;  
+}
+
+.password{
+    background-color: #5caff7;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+.password label{
+    margin-left: 0.5rem;
+    background-color: #5caff7;
+    color: whitesmoke;
+}
+
+.password input{
+    padding: 10px;
+    border-radius: .5rem;
+    border: 2px solid whitesmoke;
+    outline: none;
+    color: whitesmoke;  
+}
+.confirmPassword{
+    background-color: #5caff7;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+.confirmPassword label{
+    margin-left: 0.5rem;
+    background-color: #5caff7;
+    color: whitesmoke;
+}
+
+.confirmPassword input{
+    padding: 10px;
+    background-color: #5caff7;
+    border-radius: .5rem;
+    border: 2px solid whitesmoke;
+    outline: none;
+    color: whitesmoke;  
+}
+
+
+
+button{
+    width: 10vw;
+    background-color: whitesmoke;
+    color: #5caff7;
+    font-weight: 500;
+    margin-left: 22%;
+    padding: 10px ;
+    cursor: pointer;
+    border-radius: 5rem;
+    border: 2px solid whitesmoke;
+    outline: none;
+    
+}
+
+.loginLink p {
+    color: whitesmoke;
+    font-size: 0.8rem;
+    background-color:#5caff7;   
+} 
+
+.link{
+    text-decoration: none;
+    color: rgb(2, 26, 240);
+    font-weight: 400;
+    background-color:#5caff7;   
+
+}
